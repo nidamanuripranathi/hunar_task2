@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Course Title</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Our Course!</h2>
+        <p>introduction to our courses we are providing</p>
+        <p>1.Python</p>
+        <p>2.Data analysis....</p>
+    </section>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="course">
+            <h3>Python</h3>
+            <p>Python is highly valued for its versatility, simplicity, and readability, making it a preferred choice for tasks ranging from web development and data analysis to artificial intelligence and scientific computing. Its extensive libraries and community support further enhance its significance in various domains of programming and software development.</p>
+            <p>we are providing this course at free of cost</p>
+        </div>
+
+        <div class="course">
+            <h3>Data analysis</h3>
+            <p>Data analysis is crucial for deriving meaningful insights from raw information, enabling informed decision-making and strategic planning across industries, from healthcare and finance to marketing and research, thereby driving efficiency and innovation.</p>
+            <p>we are charing some amount for this program because you are having mentors and live classes</p>
+        </div>
+
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>As I am sailokesh your mentor for this program you can contact me through email or Contact</p>
+        <p>Email:abssailokesh5000@gmail.com</p>
+        <p>Contact:94***80</p>   
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Course Website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
